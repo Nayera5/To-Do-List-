@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
-from tkinter import Canvas
 
 root=tk.Tk()
 root.configure(background="#41175F")
@@ -27,8 +26,6 @@ def finishedTask():
     list.delete(selected_index)       
     list.insert(selected_index, item+"  ✓" ) 
  
-
-# finished #70EF97 
 
 
 new_task= tk.StringVar()
